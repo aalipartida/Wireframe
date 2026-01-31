@@ -44,6 +44,7 @@ a{
     text-align: center;
     margin-top: 0px;
     margin-left: 40px;
+    text-align: center;
 }
 .top{
        color: #d89b17;
@@ -67,8 +68,6 @@ a{
     font-weight: bolder;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    float: left;
-    margin-left: 210px;
 }
 footer{
     clear: both;
