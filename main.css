@@ -5,14 +5,79 @@
 #navbar {
     background-color: #150300;
     overflow: hidden;
-    height: 60px;
+    height: 70px;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: bold;
-    padding: 20px 20px 20px 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-left: 20px;
+    text-align: justify;
+    text-decoration: underline;
 }
-.ul {
+ul{
+    margin-top: -50px;
+    float: right;
+    padding-right: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100px;
+    font-size: 15px;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 4px;
+}
+a{
+    color: white;
+    text-decoration: underline;
+}
+#pic{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-right: 20px;
     text-align: right;
-    text-wrap: wrap;
-    
+    width: 50%;
+    float: right;
+}
+#content{
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+.top{
+       color: #d89b17;
+       font-family: 'Caveat', cursive;
+       font-size: 50px;
+         margin-bottom: -30px;
+}
+.title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+.button{
+    color: #d89b17;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    margin-left: 210px;
+}
+footer{
+    clear: both;
+    text-align: left;
+    padding: 5px;
+    background-color: #150300;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top: 100px;
 }
