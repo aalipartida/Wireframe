@@ -1,0 +1,89 @@
+@use 'partials/colors';
+@use 'vendors/normalize';
+
+#navbar{
+    background-color: colors.$darker-background; 
+    overflow: hidden; 
+    height: 70px; 
+    color: colors.$primary-font; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 25px; 
+    font-weight: bolder; 
+    padding-left: 20px; 
+    text-align: justify; 
+    text-decoration: none;
+    a{
+        color: colors.$primary-font; 
+        text-decoration: underline;
+    }
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-right: 10px;
+    margin-top: -50px;
+    font-size: small;
+    text-decoration: none;
+    li{
+        list-style: none;
+        a{
+            color: colors.$primary-font; 
+            text-decoration: none;
+        }
+    }
+}
+#pic{
+    width: 100%; 
+    height: auto; 
+    margin-top: 50px; 
+    margin-right: 90px; 
+    text-align: right; 
+    width: 50%; 
+    float: right;
+}
+#content{
+    text-align: center; 
+    margin-top: 0px; 
+    margin-left: 40px; 
+    text-align: center;
+    .top{
+        color: colors.$secondary-font; 
+        font-family: 'Caveat', cursive; 
+        font-size: 50px; 
+        margin-bottom: -30px; 
+        text-align: center;
+    }
+        .title{
+            font-family:Verdana, Geneva, Tahoma, sans-serif; 
+            font-size: 50px; 
+            margin-bottom: 20px; 
+            text-align: center;
+        }
+            .text{
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+                text-align: center; 
+                font-size: 25px;
+            }
+                .button{
+                    color: colors.$secondary-font; 
+                    font-weight: bolder; 
+                    font-size: 20px; 
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+                    text-align: center;
+                }
+                    a{
+                        color: colors.$secondary-font; 
+                        text-decoration: underline;
+                    }
+                }
+
+footer{
+    clear: both; 
+    text-align: left; 
+    padding: 5px; 
+    background-color: colors.$dark-background; 
+    color: colors.$primary-font; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 12px; font-weight: bolder;  
+    margin-top: 100px;
+}
